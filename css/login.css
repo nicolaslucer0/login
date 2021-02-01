@@ -28,6 +28,7 @@ body {
 
 .column-2 {
     width: 50%;
+    background-image: url("./../img/bosques/bosque.jpg");
 }
 
 .logo {
@@ -73,6 +74,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 
 @media (max-width: 700px) {
     .column-1 {
