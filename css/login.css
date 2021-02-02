@@ -114,6 +114,11 @@ body {
     .column-2 {
         display: none;
     }
+
+    .login-container {
+        width: 80%;
+    }
+
     .wallpaper {
         display: none;
     }
