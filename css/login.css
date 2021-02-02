@@ -31,9 +31,19 @@ body {
     background-image: url("./../img/bosques/bosque.jpg");
 }
 
+.login-container {
+    width: 60%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
   color: rgb(238, 79, 79);  
   font-size: 30px;
+  margin-top: 30px;
   font-weight: bolder;
 }
 
@@ -73,8 +83,29 @@ body {
 .remember-me-block {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
+.remember-me-block label {
+    font-size: 12px;
+}
+
+.remember-link {
+    font-size: 12px;
+}
+
+.remember-icon {
+    background-color: rgb(221, 221, 221);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px 4px;
+}
+
+.trademark p{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(214, 214, 214);
+}
 
 @media (max-width: 700px) {
     .column-1 {
