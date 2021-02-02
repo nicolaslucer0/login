@@ -34,7 +34,6 @@ body {
 .login-container {
     width: 60%;
     flex-grow: 1;
-    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
